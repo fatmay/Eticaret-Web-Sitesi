@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.WebUI", "Eticaret.WebUI\Eticaret.WebUI.csproj", "{0BDB010B-9D37-46B4-9F01-607D0A150889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Core", "Eticaret.Core\Eticaret.Core.csproj", "{7C75261D-D9E6-48ED-BFFF-1A8DADA747AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Data", "Eticaret.Data\Eticaret.Data.csproj", "{26E35CAB-C5D5-4FFD-BC85-C565E10F351E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Service", "Eticaret.Service\Eticaret.Service.csproj", "{A56432E2-7AF1-4677-A267-69EFA2E37EA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BDB010B-9D37-46B4-9F01-607D0A150889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDB010B-9D37-46B4-9F01-607D0A150889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDB010B-9D37-46B4-9F01-607D0A150889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDB010B-9D37-46B4-9F01-607D0A150889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C75261D-D9E6-48ED-BFFF-1A8DADA747AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C75261D-D9E6-48ED-BFFF-1A8DADA747AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C75261D-D9E6-48ED-BFFF-1A8DADA747AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C75261D-D9E6-48ED-BFFF-1A8DADA747AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E35CAB-C5D5-4FFD-BC85-C565E10F351E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E35CAB-C5D5-4FFD-BC85-C565E10F351E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E35CAB-C5D5-4FFD-BC85-C565E10F351E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E35CAB-C5D5-4FFD-BC85-C565E10F351E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56432E2-7AF1-4677-A267-69EFA2E37EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56432E2-7AF1-4677-A267-69EFA2E37EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56432E2-7AF1-4677-A267-69EFA2E37EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56432E2-7AF1-4677-A267-69EFA2E37EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
