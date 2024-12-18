@@ -18,7 +18,7 @@ namespace Eticaret.Data.Configurations
             builder.HasData(
                 new AppUser
                 {
-                    ıd = 1,
+                    id = 1,
                     Username ="Admin",
                     Email="admin@eticaret.io",
                     IsActive=true,

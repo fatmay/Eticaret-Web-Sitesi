@@ -3,6 +3,6 @@ namespace Eticaret.Core.Entities
 {
     public interface IEntity
     {
-        public int ıd {  get; set; }
+        public int id {  get; set; }
     }
 }

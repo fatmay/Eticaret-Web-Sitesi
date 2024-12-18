@@ -1,5 +1,7 @@
 ﻿
+using System.Reflection;
 using Eticaret.Core.Entities;
+using Eticaret.Data.Configurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace Eticaret.Data
@@ -14,6 +16,20 @@ namespace Eticaret.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Slider> Sliders { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Server=YAMANER\SQLEXPRESS;Database=EticaretDb;Trusted_Connection=True;TrustServerCertificate=True;");
+            base.OnConfiguring(optionsBuilder);
+
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.ApplyConfiguration(new AppUserConfiguration());
+            //modelBuilder.ApplyConfiguration(new BrandConfiguration());
+
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());//Çalışa dll'in içinden bul
+            base.OnModelCreating(modelBuilder);
+        }
 
 
 

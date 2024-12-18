@@ -16,7 +16,7 @@ namespace Eticaret.Data.Configurations
                 new Category
                 {
                     Name ="Ev Eşyaları",
-                    ıd=1,
+                    id=1,
                     Isactive = true,
                     IsTopMenu = true,
                     ParentId = 1,
@@ -26,7 +26,7 @@ namespace Eticaret.Data.Configurations
                   new Category
                   {
                       Name = "Markalar",
-                      ıd = 2,
+                      id = 2,
                       Isactive = true,
                       IsTopMenu = true,
                       ParentId = 1,
